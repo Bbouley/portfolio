@@ -2,10 +2,6 @@ html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
     font-family: 'Stellar';
 }
-/*
-.navbar {
-  font-family: 'Lombok'
-}*/
 
 .pure-g > div {
   -webkit-box-sizing: border-box;
@@ -46,14 +42,20 @@ header{
 
 .section-main{
   margin-top: 20px;
-  padding-top: 5px;
+  padding-top: 10px;
   border-top: black solid 1px;
-  padding-bottom: 5px;
 }
 
 .section-content{
   border-left: black solid 1px;
-  padding-left: 5px
+}
+
+.project-image{
+  background-image: url('http://montanajose.com.s4954.gridserver.com/wp-content/uploads/2011/12/squareCircleTriangle.jpg');
+}
+
+.project-section{
+  margin-top: 20px;
 }
 
 
