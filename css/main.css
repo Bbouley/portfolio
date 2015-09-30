@@ -1,1 +1,25 @@
 /* add custom styles */
+.pure-g > div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.l-box {
+  padding: 1em;
+}
+
+.navbar{
+  height: 80px;
+  /*text-align: center;*/
+  vertical-align: middle;
+  line-height: 80px;
+}
+
+.main-content{
+  border: solid 1px black;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
