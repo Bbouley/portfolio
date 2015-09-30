@@ -1,4 +1,12 @@
-/* add custom styles */
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: 'Stellar';
+}
+/*
+.navbar {
+  font-family: 'Lombok'
+}*/
+
 .pure-g > div {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -11,15 +19,42 @@
 
 .navbar{
   height: 80px;
-  /*text-align: center;*/
   vertical-align: middle;
   line-height: 80px;
 }
 
 .main-content{
-  border: solid 1px black;
+  /*border: solid 1px black;*/
   margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
   text-align: center;
 }
+
+header{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
+  vertical-align: middle;
+}
+
+.brand{
+  text-decoration: underline;
+}
+
+.section-main{
+  margin-top: 20px;
+  padding-top: 5px;
+  border-top: black solid 1px;
+  padding-bottom: 5px;
+}
+
+.section-content{
+  border-left: black solid 1px;
+  padding-left: 5px
+}
+
+
+
