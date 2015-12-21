@@ -1,6 +1,6 @@
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
-    font-family: 'Stellar';
+    font-family: 'Arvo', serif;
 }
 
 .pure-g > div {
@@ -14,16 +14,19 @@ html, button, input, select, textarea,
 }
 
 .navbar{
-  height: 80px;
+  padding-bottom: 50px;
+  height: 100px;
   vertical-align: middle;
   line-height: 80px;
+  background-color: #FDFDFD;
+  border-bottom: solid black 1px;
 }
 
 .main-content{
-  /*border: solid 1px black;*/
+  padding-top: 80px;
   margin-top: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: auto;
+  max-width: 980px;
   text-align: center;
 }
 
@@ -38,12 +41,15 @@ header{
 
 .brand{
   text-decoration: underline;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .section-main{
   margin-top: 20px;
   padding-top: 10px;
   border-top: black solid 1px;
+  text-align: left;
 }
 
 .section-content{
@@ -56,7 +62,13 @@ header{
 
 .project-section{
   margin-top: 20px;
+  text-align: left;
 }
+
+
+/*.project-description{
+  margin-left: 20px;
+}*/
 
 
 
